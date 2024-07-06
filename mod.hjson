@@ -1,0 +1,8 @@
+name: "wangen"
+displayName: "[yellow]new generators"
+author: wancoro
+description: "Add items like oil generators."
+version: "1.0"
+minGameVersion: "146"
+dependencies: []
+hidden: false

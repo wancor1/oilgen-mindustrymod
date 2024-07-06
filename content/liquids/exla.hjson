@@ -1,0 +1,11 @@
+{
+  "temperature": 1.7,
+  "flammability": 1.50,
+  "viscosity": 0.8,
+  "lightColor": "98694BFF",
+  "color": "98694BFF",
+  "heatCapacity": 0.8,
+  "explosiveness": 1.75,
+  "effect": "melting",
+  "research": "slag"
+}

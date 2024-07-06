@@ -1,0 +1,31 @@
+{
+"type": "ConsumeGenerator",
+"squareSprite": false,
+"health": 100,
+"size": 1,
+"category": "power",
+"liquidCapacity": 75,
+#power
+"powerProduction": 3,
+"itemDuration": 60,
+"consumes": {
+"items": ["coal/1"]
+"liquids": ["oil/0.25"]
+}
+#useitem
+"requirements": [
+"copper/250",
+"lead/100",
+"coal/100",
+"silicon/75"
+],
+"research": {
+"parent": "thermal-generator",
+}
+"researchCostMultiplier": 1.5,
+#sound
+"loopsound":"electricHum"
+"loopSoundVolume": 1,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.25
+}

@@ -1,0 +1,32 @@
+{
+"type": "ConsumeGenerator",
+"squareSprite": false,
+"health": 750,
+"size": 3,
+"category": "power",
+"liquidCapacity": 500,
+#power
+"powerProduction": 18,
+"itemDuration": 180,
+"consumes": {
+"items": ["coal/5"]
+"liquids": ["oil/1.666666"]
+}
+#useitem
+"requirements": [
+"copper/750",
+"lead/180",
+"titanium/500",
+"coal/700",
+"silicon/500"
+],
+"research": {
+"parent": "oilgent2",
+}
+"researchCostMultiplier": 1.5,
+#sound
+"loopsound":"electricHum"
+"loopSoundVolume": 1,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.25
+}

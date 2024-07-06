@@ -1,0 +1,43 @@
+{
+"type": "ImpactReactor",
+"squareSprite": false,
+"health": 1000,
+"size": 4,
+"category": "power",
+"liquidCapacity": 100,
+"lightRadius": 30,
+"lightColor": "FFCA68FF",
+
+"baseExplosiveness": 25565,
+"explosionRadius": 100,
+"explosionDamage": 18000,
+"warmupSpeed": 0.0005,
+#power
+"powerProduction": 216.666666666,
+"consumes": {
+	"power": 80
+"liquids": [
+	"exla/0.5"
+	"cryofluid/0.1"
+	]
+}
+#useitem
+"requirements": [
+"copper/300",
+"lead/400",
+"silicon/750",
+"thorium/200",
+"metaglass/500",
+"graphite/750",
+"phase-fabric/50",
+"surge-alloy/400",
+"plastanium/340"
+],
+"research": {
+"parent": "ImpactReactor",
+}
+"researchCostMultiplier": 2.525,
+#sound
+"ambientSound": "pulse",
+"ambientSoundVolume": 0.85,
+}
